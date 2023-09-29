@@ -42,7 +42,7 @@ while True:
     input_pdfs.append((pdf_path, page_numbers)) 
 
 output_pdf = 'mergedfiles.pdf'
-output_pdf = os.path.join(pdf_folder, 'mergedfiles.pdf')  # Save in the same folder as the input PDFs
+output_pdf = os.path.join(pdf_folder, 'mergedfiles.pdf')  
 
 
 merge_pdfs(input_pdfs, output_pdf)
