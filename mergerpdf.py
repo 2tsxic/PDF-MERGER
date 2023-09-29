@@ -22,7 +22,8 @@ def merge_pdfs(input_pdfs, output_pdf):
 
 input_pdfs = [] #stores the data of inputted pdfs of the user
 
-pdf_folder = r"\Users\janri\Desktop\Python\PDF COMBINER"  # path of the PDF files 
+pdf_folder = r""  # put the folder path of the PDFS that you want to merge between the ""
+#example : /user/python/tanginamo/PDFCOMBINER
 
 #user will input the file name here:
 while True:
